@@ -1,6 +1,6 @@
 import "mocha";
 import * as chai from "chai";
-import * as fs from "fs";
+import * as fs from "fs-extra";
 import { mkdir, tmpDirPath } from "./some-ts-lib";
 
 const expect = chai.expect;

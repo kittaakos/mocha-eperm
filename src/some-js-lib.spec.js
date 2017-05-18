@@ -1,4 +1,4 @@
-const fs = require("fs");
+const fs = require("fs-extra");
 const expect = require("chai").expect;
 const { mkdir, tmpDirPath } = require("./some-js-lib");
 

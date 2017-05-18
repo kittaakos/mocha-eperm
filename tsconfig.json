@@ -11,10 +11,7 @@
     "lib": [
       "es6"
     ],
-    "sourceMap": true,
-    "types": [
-      "node"
-    ]
+    "sourceMap": true
   },
   "include": [
     "src"
