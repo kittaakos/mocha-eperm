@@ -1,15 +1,24 @@
 {
+  "private": true,
   "name": "mocha-eperm",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "mocha *.spec.js"
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "test": "mocha --opts mocha.opts src/**/*.spec.*",
+    "test:watch": "mocha --watch --opts mocha.opts src/**/*.spec.*"
   },
   "author": "",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "devDependencies": {
+    "@types/chai": "^3.5.2",
+    "@types/mocha": "^2.2.41",
+    "@types/node": "^7.0.18",
     "chai": "^3.5.0",
-    "mocha": "^3.4.1"
+    "mocha": "^3.4.1",
+    "ts-node": "^3.0.4",
+    "typescript": "^2.3.2"
   }
 }

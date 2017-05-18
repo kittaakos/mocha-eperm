@@ -1,6 +1,6 @@
 // @ts-check
 
-const { deleteIfPresent, mkdir, tmpDirPath } = require("./lib");
+const { deleteIfPresent, mkdir, tmpDirPath } = require("./some-js-lib");
 
 (function () {
     const dirPath = tmpDirPath("some-dir-name");
