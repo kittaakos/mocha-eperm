@@ -13,6 +13,10 @@ export function deleteIfPresent(path: string) {
 
 export function mkdir(path: string) {
     deleteIfPresent(path);
+    const obj = {
+        path
+    };
+    console.log("Creating directory under", path, obj);
     fs.mkdirSync(path);
 }
 

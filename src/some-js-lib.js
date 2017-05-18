@@ -15,6 +15,10 @@ function deleteIfPresent(path) {
 
 function mkdir(path) {
     deleteIfPresent(path);
+    const obj = {
+        path
+    };
+    console.log("Creating directory under", path, obj);
     fs.mkdirSync(path);
 }
 
