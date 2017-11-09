@@ -10,6 +10,10 @@ function deleteIfPresent(path) {
             throw new Error("Expected a directory: " + path);
         }
         fs.rmdirSync(path);
+
+
+
+
     }
 }
 
