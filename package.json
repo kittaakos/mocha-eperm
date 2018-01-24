@@ -11,6 +11,7 @@
     "test:watch": "mocha --watch --opts mocha.opts src/**/*.spec.*"
   },
   "author": "",
+  "// comment": [],
   "license": "Apache-2.0",
   "devDependencies": {
     "@types/chai": "^3.5.2",
